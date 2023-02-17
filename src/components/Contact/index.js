@@ -38,7 +38,7 @@ const Contact = () =>{
         <div className="container-form">
           <h1>Contáctanos</h1>
           <p>
-          Si tiene alguna otra solicitud o pregunta, no dude en ponerse en contacto con nosotros utilizando el siguiente formulario 😃
+          Si tienes alguna otra solicitud o pregunta, no dudes en contactarte con nosotros, utilizando el siguiente formulario 😃
             </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
