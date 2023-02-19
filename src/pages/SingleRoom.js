@@ -10,6 +10,7 @@ import { RoomContext } from "../context";
 import LogoStores from "../components/LogoStores";
 import Accordion from "../components/Accordion";
 import withRouter from "../components/withRouter";
+import Error from "../pages/Error";
 
 import StyledHero from "../components/StyledHero";
 
@@ -45,12 +46,13 @@ class SingleRoom extends Component {
 
     if (!room) {
       return (
-        <div className="error">
-          <h3> no such room could be found...</h3>
-          <Link to="/rooms" className="btn-primary">
-            back to rooms
-          </Link>
-        </div>
+        // <div className="error">
+        //   <h3> no such room could be found...</h3>
+        //   <Link to="/rooms" className="btn-primary">
+        //     back to rooms
+        //   </Link>
+        // </div>
+        <Error />
       );
     }
     const {
