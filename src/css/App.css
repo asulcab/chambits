@@ -159,8 +159,9 @@ h6 {
 .nav-links {
   height: 0;
   overflow: hidden;
-  transition: var(--mainTransition);
+  transition: all .3s ease;
   list-style-type: none;
+  transition-duration: 500ms;
 }
 .nav-links a {
   /* font-family: 'Lato', sans-serif; */
@@ -189,10 +190,13 @@ h6 {
 
 .show-nav {
   /* height: 155.4px;100px */
-  height: auto;
+  height: 211.6px;
 }
 @media screen and (min-width: 768px) {
   #nav-btn {
+    display: none;
+  }
+  .burguer {
     display: none;
   }
   .nav-center {
