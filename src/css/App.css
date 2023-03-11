@@ -161,7 +161,7 @@ h6 {
   overflow: hidden;
   transition: all .3s ease;
   list-style-type: none;
-  transition-duration: 500ms;
+  transition-duration: 300ms;
 }
 .nav-links a {
   /* font-family: 'Lato', sans-serif; */

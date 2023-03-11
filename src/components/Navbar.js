@@ -79,7 +79,8 @@ const BgDiv = styled.div`
   height: 100%;
   /*z-index: 1;*/
   opacity: 0;
-  transition: all .6s ease ;
+  transition: all .3s ease ;
+  transition-duration: 300ms;
   @media(min-width: 768px){
     display: none;
   }

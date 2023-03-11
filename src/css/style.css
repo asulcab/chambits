@@ -310,7 +310,7 @@ button:hover {
 
 @media screen and (max-width: 768px) {
   body {
-    padding-top: 135.65px;/*122px*/
+    padding-top: 135px;/*122px*/
   }
   .slider-wrapper, .slide {
     height: calc(100vh - 122px);
